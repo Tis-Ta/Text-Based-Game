@@ -60,7 +60,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 85%;
     width: 72vw;
     padding: 0;
     margin: 1.5625em auto;
@@ -730,14 +730,14 @@ input:checked + .slider:before {
     }
 
     .screen {
-        height: 70%;
+        height: 80%;
         width: 88vw;
         background-position: center;
         background-repeat: no-repeat;
     }
  
     #input-bar {
-        bottom: 0;
+        bottom: -0.3em;
         right: 4em;
         width: 65vw;
         max-width: 400px;
@@ -765,7 +765,7 @@ input:checked + .slider:before {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         margin-right: -3em;
-        margin-top: 10.5em;
+        margin-top: 10em;
         width: 65%;
         max-width: 80px;
         max-height: 15%;
@@ -785,7 +785,7 @@ input:checked + .slider:before {
         max-width: 50px;
         height: 2.5em;
         left: -4em;
-        top: -4em;
+        top: -3.5em;
     }
 
     #music-button {
@@ -798,6 +798,7 @@ input:checked + .slider:before {
 @media (min-width: 350px) and (max-width: 770px) {
     .switch {
         left: -5em;
+        top: -4em;
     }
 
     #switch-label {
@@ -812,19 +813,19 @@ input:checked + .slider:before {
 
 @media (min-width: 410px) and (max-width: 770px) {
     .switch {
-        left: -8em;
+        left: -7em;
     }
 
     #switch-label {
-        margin-left: -6em;
+        margin-left: -5em;
     }
 
     #restart-button {
-        margin-right: -7em;
+        margin-right: -6em;
     }
 
     #music-button {
-        margin-left: 17em;
+        margin-left: 15em;
     }
 }
 
