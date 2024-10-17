@@ -730,7 +730,7 @@ input:checked + .slider:before {
     }
 
     .screen {
-        height: 70vh;
+        height: 70%;
         width: 88vw;
         background-position: center;
         background-repeat: no-repeat;
@@ -810,7 +810,7 @@ input:checked + .slider:before {
     }
 }
 
-@media (min-width: 420px) and (max-width: 770px) {
+@media (min-width: 410px) and (max-width: 770px) {
     .switch {
         left: -8em;
     }
