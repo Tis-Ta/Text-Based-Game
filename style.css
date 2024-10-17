@@ -728,7 +728,7 @@ input:checked + .slider:before {
     }
 
     .screen {
-        height: 80vh;
+        height: 80svh;
         width: 88vw;
         background-position: center;
         background-repeat: no-repeat;
