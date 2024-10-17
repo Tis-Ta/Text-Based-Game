@@ -106,19 +106,19 @@ const otherOptionsObject = {
 };
 const rooms = {
     Beginning: {
-        image: "url('images/Beginning.jpg')",
+        image: "url('Images/Beginning.jpg')",
     },
 
     Instruction: {
-        image: "url('images/Instruction.jpg')",
+        image: "url('Images/Instruction.jpg')",
     },
 
     Intro: {
-        image: "url('images/Intro.jpg')",
+        image: "url('Images/Intro.jpg')",
     },
 
     Village: {
-        image: "url('images/Village.jpg')",
+        image: "url('Images/Village.jpg')",
 
         areaStoryDescription: "You stand in Edune, your village, your home. On the outskirts of your homestead, you take in the peaceful beauty of the land and its people, all trying to live their lives as best they can. But beneath the surface, Melkor's evil has begun poisoning the land, slowly creeping into your beloved village.<br><br> You have trained your entire life for this moment. Now, the time has come. You have readied yourself, said your farewells, and are prepared to embark on the journey of a lifetime. With one final look at your village, unsure if you will ever return, you turn around and set off on your adventure to save the world...",
 
@@ -134,7 +134,7 @@ const rooms = {
     },
 
     Path: {
-        image: "url('images/Path.jpg')",
+        image: "url('Images/Path.jpg')",
 
         areaStoryDescription: "Walking along the dirt path leading out of your village, you feel an unexpected calm. Despite the weight of your mission and the enormity of the stakes, the quiet road brings a sense of peace. There is nothing to distract you, allowing your mind to focus on the task ahead.<br><br> You know you need to find the three pieces of the bloodless key, but you have no idea where to start. For now, all you can do is explore the area and hope for a lead. The elders spoke of a great Sphinx who might know the locations of the pieces, though it is likely just a myth...",
 
@@ -151,7 +151,7 @@ const rooms = {
     },
 
     Forest: {
-        image: "url('images/Forest.jpg')",
+        image: "url('Images/Forest.jpg')",
 
         areaStoryDescription: "You step into the forest, the dense canopy above blocking much of the sunlight. Shadows dance between the ancient trees, and the air is thick with the scent of moss and earth. Every sound seems amplified. The rustle of leaves, the distant call of a bird.<br><br> This forest, once a place of serenity, now holds an ominous presence. You can sense the dark magic that has started to seep into its roots. The path ahead is unclear, but you know you must press on, deeper into the jaws of the unknown.",
 
@@ -170,7 +170,7 @@ const rooms = {
     },
 
     StoneHouse: {
-        image: "url('images/StoneHouse.jpg')",
+        image: "url('Images/StoneHouse.jpg')",
 
         areaStoryDescription: "The small stone house before you looks as though it has stood for centuries, its walls weathered by time. You push open the creaking door and step inside. The interior is dark and cold, and the air is thick with dust. It's clear that this place has been abandoned for many years. As you move through the dimly lit rooms, you cant shake the feeling that someone, or something, may still be here... Watching.",
 
@@ -207,7 +207,7 @@ const rooms = {
     },
 
     River: {
-        image: "url('images/River.jpg')",
+        image: "url('Images/River.jpg')",
 
         areaStoryDescription: "The sound of rushing water reaches your ears as you approach the river. Its waters are swift and cold, cutting through the landscape like a silver blade. The banks are overgrown with reeds and wildflowers, but there is an unnatural stillness to the air here. The river, once a source of life, now seems tainted, as if the dark magic seeping through Eldoria has even poisoned the water itself.",
 
@@ -226,7 +226,7 @@ const rooms = {
     },
 
     RiverHouse: {
-        image: "url('images/RiverHouse.jpg')",
+        image: "url('Images/RiverHouse.jpg')",
 
         areaStoryDescription: "The River House is a quaint, solitary structure sitting close to the edge of the river. The house is old, with ivy creeping up its walls and a thatched roof that looks like it could use some repairs. The river nearby reflects the sky, somehow its waters calm and soothing here. There's a sense of peace, a sharp contrast to the stagnant decay coming from the rest of the river.<br><br> However, the solitude of the place gives it an eerie, lonely atmosphere, as if the house itself is hiding something. You decide to enter, on the hope there is something you might find that can help on your quest.",
 
@@ -242,7 +242,7 @@ const rooms = {
     },
 
     Field: {
-        image: "url('images/Field.jpg')",
+        image: "url('Images/Field.jpg')",
 
         areaStoryDescription: "The field spreads out before you, a vast expanse of wild grass swaying in the breeze. The sun, though weak, casts a pale light over the landscape. Despite the open sky, there is an oppressive weight to the air, as if the land itself is holding its breath.",
 
@@ -259,7 +259,7 @@ const rooms = {
     },
 
     OldVillage: {
-        image: "url('images/OldVillage.jpg')",
+        image: "url('Images/OldVillage.jpg')",
 
         areaStoryDescription: "The Old Village shows signs of wear but still clings to life. The buildings, though aged and overgrown in places, remain standing, and the streets, while quieter than they once were, are not entirely empty.<br><br> A few villagers go about their business, their footsteps echoing faintly in the once-crowded marketplace. The distant hum of conversation mixes with the soft rustling of wind through the vines. Though the villages glory days are behind it, a sense of resilience lingers in the air, as if the heart of the village refuses to give up completely.",
 
@@ -277,7 +277,7 @@ const rooms = {
     },
 
     Tavern: {
-        image: "url('images/Tavern.jpg')",
+        image: "url('Images/Tavern.jpg')",
 
         areaStoryDescription: "The Tavern still holds onto remnants of its former glory. The crowds have thinned and the lively chatter is quieter but there is still a hum of life within.<br><br> The scent of ale, though not as fresh, mixes with the faint aroma of roasting meat. Subtle music is heard in the background. A few patrons sit scattered across worn wooden tables, exchanging stories in raised voices. The beams above groan softly under the weight of years, and yet the place has not given up. The sound of laughter is a welcome reprieve and the fire in the hearth flickers with just enough warmth to remind you that, despite the times, the Tavern lives on.",
 
@@ -294,7 +294,7 @@ const rooms = {
     },
 
     OldVillage2: {
-        image: "url('images/OldVillage.jpg')",
+        image: "url('Images/OldVillage.jpg')",
 
         areaStoryDescription: "This part of the Old Village is even more desolate. The buildings are little more than shells, their windows like empty eyes staring into nothingness. The ground is uneven, with weeds and roots breaking through the cracked cobblestones. It feels as if this place has been forgotten by time itself. Yet, there is a strange energy in the air, a sense that this was once part of a great power.",
 
@@ -312,7 +312,7 @@ const rooms = {
     },
 
     BrokenBridge: {
-        image: "url('images/BrokenBridge.jpg')",
+        image: "url('Images/BrokenBridge.jpg')",
 
         areaStoryDescription: "You stand before a once-great stone bridge, now broken and crumbling into the abyss below. The stones have completely deteriorated. The supports, cracked and weathered by time. The chasm beneath is shrouded in mist, making it impossible to see how far the fall would be. The bridge, like so much else in Eldoria, is a casualty of the spreading darkness.<br><br> Across the divide, you can see a once incredible building. A marvel now reduced to a decayed ruin. Although there is something faint that calls to you, if a way around can be found.",
 
@@ -334,7 +334,7 @@ const rooms = {
     },
 
     Pier: {
-        image: "url('images/Pier.jpg')",
+        image: "url('Images/Pier.jpg')",
 
         areaStoryDescription: "The Pier stretches out into the water, its old wooden planks creaking underfoot. The air is filled with the salty tang of the sea and the distant cry of seagulls. This pier has seen better days; it's worn and weather-beaten, a reminder of a time when it was a bustling hub of activity. Now, it stands with only a handful of people left, a farcry from its lively past.<br><br> The water below is dark and mysterious, almost as if it were hiding a secret beneath its calm surface.",
 
@@ -354,7 +354,7 @@ const rooms = {
     },
 
     HiddenHut: {
-        image: "url('images/HiddenHut.jpg')",
+        image: "url('Images/HiddenHut.jpg')",
 
         areaStoryDescription: "The Hidden Hut is a secluded, almost forgotten dwelling deep within the forest. The hut is small, barely visible among the thick foliage that surrounds it. There is not a breath of wind, as if the forest itself is holding its breath. This place feels ancient, as though it has stood untouched for centuries, hidden from the world. There is an air of mystery here, a feeling that the hut holds secrets known only to the forest and its creatures.",
 
@@ -372,7 +372,7 @@ const rooms = {
     },
 
     AbandonedBuilding: {
-        image: "url('images/AbandonedBuilding.jpg')",
+        image: "url('Images/AbandonedBuilding.jpg')",
 
         areaStoryDescription: "The Abandoned Building looms like a shadow at the edge of the forest. Its windows are broken, and the doors hang loosely on their hinges. Vines have overtaken much of the structure, crawling up the walls and breaking through the crumbling bricks. The building is a shell of its former self, a relic of a past long forgotten. The air here is heavy with dust and decay, and the silence is thick, broken only by the occasional creak of settling wood and scurrying creatures.",
 
@@ -398,7 +398,7 @@ const rooms = {
     },
 
     HotSpring: {
-        image: "url('images/HotSpring.jpg')",
+        image: "url('Images/HotSpring.jpg')",
 
         areaStoryDescription: "Nestled secretly deep within the forest, the Hot Springs is a hidden oasis of warmth and tranquility. The natural pool steams gently in the cool air, its crystal-clear waters reflecting the soft light of the surrounding woods. This secluded spot is a place of respite, where weary travelers can pause, heal and regain their strength before continuing their journey.",
 
@@ -425,7 +425,7 @@ const rooms = {
     },
 
     SecretPath: {
-        image: "url('images/SecretPath.jpg')",
+        image: "url('Images/SecretPath.jpg')",
 
         areaStoryDescription: "The Secret Path is narrow and winding, cutting through the dense forest. The trees here are tall and ancient, their branches forming a canopy that blocks out most of the light. The path is overgrown in places, making it difficult to see where you're going.",
 
@@ -442,7 +442,7 @@ const rooms = {
     },
 
     CaveEntrance: {
-        image: "url('images/CaveEntrance.jpg')",
+        image: "url('Images/CaveEntrance.jpg')",
 
         areaStoryDescription: "The Caves Entrance marks the start to a dark and foreboding system. It is well lit at the entrance, almost as if to lure people in but as soon as you enter, it rapidly fades into darkness.<br><br> The air down here is cool and damp, with the scent of earth and stone filling your lungs. The entrance is wide but quickly narrows as it descends into the darkness. The ground is uneven, and with the light fading quickly, you are left with only your instincts to guide you. This cave feels ancient, untouched by time, a place where the earth keeps its deepest secrets.",
 
@@ -459,7 +459,7 @@ const rooms = {
     },
 
     CaveFirstArea: {
-        image: "url('images/CaveFirstArea.jpg')",
+        image: "url('Images/CaveFirstArea.jpg')",
 
         areaStoryDescription: "The Caves first chamber is vast, its rough walls illuminated by the menacing glow of molten lava pools scattered across the floor. The intense heat warps the air, and the steady bubbling of the lava breaks the oppressive silence. Shadows dance across the walls, cast by the flickering light. This place feels ancient and volatile, as if the earth itself could erupt at any moment, untouched by the outside world yet pulsing with a primal energy.",
 
@@ -476,7 +476,7 @@ const rooms = {
     },
 
     CaveSecondArea: {
-        image: "url('images/CaveSecondArea.jpg')",
+        image: "url('Images/CaveSecondArea.jpg')",
 
         areaStoryDescription: "The Caves second chamber is deeper and more perilous than the first. The uneven ground is riddled with jagged rocks that jut out unpredictably, making each step a careful one. The walls seem to press in, narrowing the space, while the thick, suffocating air weighs heavily on you.<br><br> The only light comes from faintly glowing patches of phosphorescent fungi, casting eerie, pale light. The rivers of lava are gone, replaced by a lingering sense of foreboding, almost as if something is waiting for you deeper within.",
 
@@ -494,7 +494,7 @@ const rooms = {
     },
 
     CaveTrick: {
-        image: "url('images/CaveTrick.jpg')",
+        image: "url('Images/CaveTrick.jpg')",
 
         areaStoryDescription: "This part of the cave feels unnervingly unstable. The ground beneath your feet shifts with each step, loose rocks threatening to collapse at any moment. Shadows flicker and twist, making it difficult to tell what is real and what is a trick of the mind. The air hums with an eerie energy, as if the cave itself is watching you, testing you.<br><br> As your eyes adjust to the dim light, you notice a small statue at the center of the chamber. Its twisted, impish features resemble a demon, silently grinning as if it knows something you do not.",
 
@@ -510,7 +510,7 @@ const rooms = {
     },
 
     CaveCenter: {
-        image: "url('images/CaveCenter.jpg')",
+        image: "url('Images/CaveCenter.jpg')",
 
         areaStoryDescription: "The Caves Center is a vast, open chamber that feels like the heart of the cave. Strange, glowing crystals line the walls, emitting a soft, pulsating light, giving the illusion of being outdoors. Moss grows on the stones, and the crystals mimic the warmth of sunlight. A deep, melodic hum reverberates through the air, emanating from a massive obelisk at the center of the chamber. This place feels sacred, as if once central to the rituals of an ancient civilization.",
 
@@ -527,7 +527,7 @@ const rooms = {
     },
 
     CaveEnd: {
-        image: "url('images/CaveEnd.jpg')",
+        image: "url('Images/CaveEnd.jpg')",
 
         areaStoryDescription: "The Caves End point is the deepest and most enigmatic part of the cave. Ancient markings cover the walls, telling a forgotten story. Lava from the chambers above cascades down, filling the chamber with an oppressive heat. The ground is almost entirely consumed, leaving only small, molten pools of lava that glow in contrast to the faint light from the crystals in the previous chamber.<br><br> There is a very real sense of finality here, as if your journey through the cave has led to this moment. To reach the center, you must leap from stone to stone, avoiding the lava below. In the center stands a pedestal, adorned with what appears to be a dragon's crest.",
 
@@ -547,7 +547,7 @@ const rooms = {
     },
 
     MagicPath: {
-        image: "url('images/MagicPath.jpg')",
+        image: "url('Images/MagicPath.jpg')",
 
         areaStoryDescription: "This Magic Path is a surreal trail that winds through an enchanted landscape. The trees here are taller, their leaves shimmering with a magical purple light. The path is lined with strange, glowing plants that seem to pulse with life. The air is filled with the scent of blooming flowers and the sound of distant, melodic chimes. This place feels alive, as if the very path is guiding you towards something extraordinary.",
 
@@ -565,7 +565,7 @@ const rooms = {
     },
 
     MagicHouse: {
-        image: "url('images/MagicHouse.jpg')",
+        image: "url('Images/MagicHouse.jpg')",
 
         areaStoryDescription: "The House of Magic is a mysterious dwelling hiding at the edge of the magical path. The house is small but radiates a strange, comforting energy. The walls are covered in jars and strange looking experiments and the windows glow with a soft, warm light. Inside, the house is filled with odd trinkets and magical artifacts, each with a story of its own. This place feels like a refuge, a safe haven in a world filled with dangers.",
 
@@ -582,7 +582,7 @@ const rooms = {
     },
 
     Mountains: {
-        image: "url('images/Mountains.jpg')",
+        image: "url('Images/Mountains.jpg')",
 
         areaStoryDescription: "The Mountains are a towering, majestic range that stretches towards the sky. The air is crisp and thin, filled with the scent of pine and snow. As you ascend, the world below seems to fall away, leaving you alone with the rugged beauty of the peaks. The path here is steep and treacherous, with loose rocks and narrow ledges. The higher you climb, the more the landscape changes, becoming a harsh, unforgiving wilderness.",
 
@@ -600,7 +600,7 @@ const rooms = {
     },
 
     Sphinx: {
-        image: "url('images/Sphinx.jpg')",
+        image: "url('Images/Sphinx.jpg')",
 
         areaStoryDescription: "The Sphinx. It is an ancient, stone guardian that looms over the desert at the edge of the mountains. Its face is weathered but still stern, its eyes seemingly watching your every move. The ground here is dry and cracked, impossible to tell how many centuries or millenia this place has been here for. It feels almost timeless, as if it has watched over the secrets of the world.<br><br> There is a riddle in its gaze, a challenge that only the worthy can pass and learn the truths.",
 
@@ -626,7 +626,7 @@ const rooms = {
     },
 
     Cherry: {
-        image: "url('images/Cherry.jpg')",
+        image: "url('Images/Cherry.jpg')",
 
         areaStoryDescription: "The Cherry Blossoms stand around the center of a peaceful clearing, its blossoms a vibrant splash of color against the green of the forest. The air is filled with the sweet scent of the flowers, the rush of the cascading waterfalls and the soft sound of petals falling to the ground.<br><br> This place feels like a sanctuary, a spot untouched by the chaos of the outside world. The trees seems ancient, their twisted branches holding a wisdom earned over centuries. Theres a calm here that soothes your soul, making you reluctant to leave.",
 
@@ -644,7 +644,7 @@ const rooms = {
     },
 
     BoneChurch: {
-        image: "url('images/BoneChurch.jpg')",
+        image: "url('Images/BoneChurch.jpg')",
 
         areaStoryDescription: "The Bone Church is a macabre structure, its walls built from the bones of countless creatures. The air is thick with the smell of decay, and the ground is littered with broken skulls and scattered bones. This place feels cursed, as if the very ground is tainted by the death that permeates it. The silence here is absolute, broken only by the occasional creak of the bones as they settle. Theres a feeling of dread that hangs over this place, making your skin crawl.",
 
@@ -663,7 +663,7 @@ const rooms = {
     },
 
     Valley: {
-        image: "url('images/Valley.jpg')",
+        image: "url('Images/Valley.jpg')",
 
         areaStoryDescription: "The Valley is a wide, open space nestled between two looming mountain ranges. The grass lies dead and grey, unmoving like blades of death. The sky hangs in a deep almost red gloom, the sun struggling to pierce through thick, oppressive clouds.<br><br> The valley feels heavy, a silent and forgotten graveyard lost in the wilderness. No birds sing here, no leaves stir. This place is still, drained of life, as if the earth itself has turned its back. Minas Ithils proximity has rendered it impossible to sustain any kind of life.",
 
@@ -680,7 +680,7 @@ const rooms = {
     },
 
     MysteryTown: {
-        image: "url('images/MysteryTown.jpg')",
+        image: "url('Images/MysteryTown.jpg')",
 
         areaStoryDescription: "The Mysterious Town is an eerie, deserted village at the end of the Valley. The grand, abandoned houses resemble old Norse structures, hinting at a once-great civilization. The town feels frozen in time, as if the inhabitants fled in haste and never returned. Heavy silence hangs in the air, broken only by the occasional creak of a door or rustling leaves. There is something unsettling about this place. Its name, feels very fitting.",
 
@@ -696,7 +696,7 @@ const rooms = {
     },
 
     Ruins: {
-        image: "url('images/Ruins.jpg')",
+        image: "url('Images/Ruins.jpg')",
 
         areaStoryDescription: "The Ruins are the remnants of a civilization far older than those in the Mysterious Town. Vines and moss have claimed the crumbling stone structures and only a few walls remain standing with any true strength. Broken statues and shattered pottery litter the ground, relics of a time long forgotten. You can smell the scent of earth and decay, and a quiet, sacred reverence hangs over this place, as if it still holds the final echoes of a lost era.<br><br> The village outside was likely built to protect and conceal these ruins from outsiders. The puzzle you solved was designed to ensure that only those with the proper knowledge, those who belonged here, could gain access. You can only speculate about the true story behind these ruins, but the truth has long been swallowed by time. All that remains now is the certainty that something of great power still lingers here, waiting to be found.",
 
@@ -720,7 +720,7 @@ const rooms = {
     },
 
     Castle: {
-        image: "url('images/Castle.jpg')",
+        image: "url('Images/Castle.jpg')",
 
         areaStoryDescription: "The Castle is a towering citadel that dominates the landscape - Minas Ithil. Its high, thick walls are made of dark stone that absorbs the light, casting the area in shadow. The air is bitterly cold, and the wind howls through the ancient stones cracks.<br><br> This place feels oppressive, a stronghold of long-dead rulers who once ruled with bloody oppression. There is a haunting sense of history here, of battles long past and horrors buried deep within its walls. It is a place of great evil. The heroes of ancient times once stood here and defeated Melkor. It is your turn now. The fate of the entire country, indeed the whole world, rests on your success.",
 
@@ -737,7 +737,7 @@ const rooms = {
     },
 
     CastleEntrance: {
-        image: "url('images/CastleEntrance.jpg')",
+        image: "url('Images/CastleEntrance.jpg')",
 
         areaStoryDescription: "The Castle Entrance is a towering, mystical gateway that glows before you, leading you into the very heart of the fortress of evil. The doors are immense, formed from swirling, green ethereal light that pulses with energy. The stone floor beneath your feet is slick and worn smooth by the passage of countless souls. The air is thick with magic, while cold and damp, clinging to you like a veil.<br><br> This feels like the threshold to something far darker than you had imagined. A barrier between the world you know and the world that will be if your mission fails. A sense of dread lingers, as if the castle itself is watching, waiting for you to step inside.",
 
@@ -755,7 +755,7 @@ const rooms = {
     },
 
     CastleCorridor: {
-        image: "url('images/CastleCorridor.jpg')",
+        image: "url('Images/CastleCorridor.jpg')",
 
         areaStoryDescription: "The Castles Corridor stretches deep into the heart of the fortress, a long, dimly lit hallway that feels endless. The cold stone floor amplifies the sound of your footsteps, each echo reverberating in the heavy silence. The air is thick with dust and the musty scent of ancient stone.<br><br> You move cautiously, fully aware that danger could emerge at any moment. The oppressive weight of evil memories lingers here, like a storm cloud overhead, ready to burst. You need to find Melkor and end this once and for all.",
 
@@ -773,7 +773,7 @@ const rooms = {
     },
 
     CastleChapel: {
-        image: "url('images/CastleChapel.jpg')",
+        image: "url('Images/CastleChapel.jpg')",
 
         areaStoryDescription: "The Castle Chapel is a shadowed, solemn space, its stone walls lined with faded murals depicting forgotten deities and cryptic symbols. The air is heavy with the harsh scent of burnt incense and ancient candle wax, lingering like a memory that refuses to fade. A suffocating reverence fills the room, as if the very walls are soaked in centuries of demonic prayers and blood sacrifices. The silence here is dense and oppressive, almost as if the chapel itself is waiting for something dreadful to return.",
 
@@ -791,7 +791,7 @@ const rooms = {
     },
 
     CastleDeath: {
-        image: "url('images/CastleDeath.jpg')",
+        image: "url('Images/CastleDeath.jpg')",
 
         areaStoryDescription: "You descend the staircase into a place of darkness and despair, where the shadows seem to have a life of their own. The fabled weapon, the only reason you are taking this dangerous step.<br><br> The air down here is cold and the atmosphere is thick with the sense of tragedy and loss. This is a place where many have met their end, and the very walls seem to echo with their final cries. A palpable sense of danger hangs over this room, as if death itself lingers here, waiting for its next victim.",
 
@@ -807,7 +807,7 @@ const rooms = {
     },
 
     CastleRoom: {
-        image: "url('images/CastleRoom.jpg')",
+        image: "url('Images/CastleRoom.jpg')",
 
         areaStoryDescription: "The Castles Central Room is a grand chamber filled with old furniture, dusty tapestries, and the remnants of a time long past. The air is stale, and a layer of dust and web cover everything. This room once served as the central hub of the Castle, a place where decisions were made and lives were changed. Now, its just a relic of what once was, a ghost of its former self, except for a large orb of swirling color dominating the room.",
 
@@ -825,7 +825,7 @@ const rooms = {
     },
 
     CastleLibrary: {
-        image: "url('images/CastleLibrary.jpg')",
+        image: "url('Images/CastleLibrary.jpg')",
 
         areaStoryDescription: "The Castle Library is a vast room filled with towering bookshelves, each one crammed with ancient tomes and scrolls. The smell of old paper and leather fills the air, and the only sound is the soft rustle of pages as the wind slips through the cracked windows. This is a place of knowledge, where secrets and stories from ages past are stored. The library feels almost alive, as if the books themselves are watching you. There might be something of value here, something that can be learned to assist in your battle against Melkor.",
 
@@ -842,7 +842,7 @@ const rooms = {
     },
 
     CastleBedroom: {
-        image: "url('images/CastleBedroom.jpg')",
+        image: "url('Images/CastleBedroom.jpg')",
 
         areaStoryDescription: "The Castle Bedroom is a large, opulent room that once belonged to someone of great importance. The bed is massive, draped with heavy curtains, and the furniture is ornate, though covered in dust. The air is stale, and the room has an air of abandonment. This was once a place of rest and comfort but now it feels empty, haunted by the memories of those who lived here before it was taken by evil.",
 
@@ -860,7 +860,7 @@ const rooms = {
     },
 
     CastleDoorCorridor: {
-        image: "url('images/CastleDoorCorridor.jpg')",
+        image: "url('Images/CastleDoorCorridor.jpg')",
 
         areaStoryDescription: "The Hidden Passage is a long, narrow corridor leading to a massive door that seems to pulse with an ominous energy. The walls are cold and bare, with only the faintest echo of your footsteps to break the silence. The air is thick with anticipation, as if this corridor has not seen a living person for eons.",
 
@@ -877,7 +877,7 @@ const rooms = {
     },
 
     CastleDoor: {
-        image: "url('images/CastleDoor.jpg')",
+        image: "url('Images/CastleDoor.jpg')",
 
         areaStoryDescription: "The Magic Door looms before you, an immense, terrifying barrier forged from a haunting blend of ancient wood and dark, twisted iron. Pulsing with arcane energy, the door hums faintly, as though alive with a sinister will of its own.<br><br> Its surface is etched with eerie, shifting carvings, battles long forgotten, monstrous figures writhing in agony, and symbols too ancient to comprehend, their meaning lost to time but filled with dread. Flickers of magic ripple across the doors surface, a warning that whatever lies beyond is bound by forces far beyond the human understanding.<br><br> This is no ordinary door. It is a malevolent creation, built to contain something unspeakably evil. The weight of its sheer presence presses heavily upon you, suffocating you with a dread that gnaws at your resolve.<br><br> There is no mistaking what this cursed door conceals. Beyond this final threshold lies the most dangerous and vile of all... Melkor. His shadow has lingered over every step of your journey, and now, only this barrier stands between you and the end. To pass through is to confront the ultimate darkness. To face the evil that has twisted this world. This is it. The culmination of everything you have fought for. This is the final battle. This is the moment of reckoning where all will be decided.",
 
@@ -894,7 +894,7 @@ const rooms = {
     },
 
     CastleBoss: {
-        image: "url('images/CastleBoss.jpg')",
+        image: "url('Images/CastleBoss.jpg')",
 
         areaStoryDescription: "The room beyond the door is a vision of pure horror. A grotesque fusion of mechanical monstrosities and dark, ancient magic fills you with dread. The walls seem to ooze malice, the atmosphere thick with centuries of festering evil. This place has been corrupted for ages, left to rot and fester into something vile, something beyond human comprehension. Every corner feels alive with malevolence, watching you, waiting...",
 
@@ -934,7 +934,7 @@ const rooms = {
     },
 
     Ending: {
-        image: "url('images/Ending.jpg')",
+        image: "url('Images/Ending.jpg')",
 
         areaStoryDescription: "Eldoria has been saved! You have endured unspeakable hardships, unraveled countless mysteries and braved unimaginable dangers. After facing the most fearsome adversary the world has ever known, you have emerged victorious. Eldoria is finally safe, its people free from the shadow that has plagued them for centuries.<br><br> The great task that consumed your life has been completed. As you begin the long walk back to your beloved village of Edune, the weight of destiny that once pressed down on your shoulders lifts. You have fulfilled your purpose. No longer bound to the fate of Eldoria, but free to live your life as you choose. Peace has been restored and the future of Eldoria is bright once more...",
 

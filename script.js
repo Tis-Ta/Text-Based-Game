@@ -21,7 +21,7 @@ const numberGameQuestionMark = document.getElementById('number-game-question-mar
 const addHiddenClassTo = (element)  => element.classList.add("hidden");
 const removeHiddenClassFrom = (element)  => element.classList.remove("hidden");
 const changeBackgroundImage = () => screenElem.style.backgroundImage = rooms[displayPlayersRoom].image;
-const playSound = (audio) => new Audio(`/sounds/${audio}.mp3`);
+const playSound = (audio) => new Audio(`Sounds/${audio}.mp3`);
 const introAudio = playSound("Intro");
 const clickAudio = playSound("Click");
 const memoryAudio = playSound("Boop");

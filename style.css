@@ -1,21 +1,21 @@
 @font-face {
     font-family: wonderFont;
-    src: url(/Fonts/Wonderland.ttf);
+    src: url(Fonts/Wonderland.ttf);
 }
 
 @font-face {
     font-family: caFont;
-    src: url(/Fonts/CAELDERA.TTF);
+    src: url(Fonts/CAELDERA.TTF);
 }
 
 @font-face {
     font-family: ringFont;
-    src: url(/Fonts/RING.ttf);
+    src: url(Fonts/RING.ttf);
 }
 
 @font-face {
     font-family: openFont;
-    src: url(/Fonts/Opensans.ttf);
+    src: url(Fonts/Opensans.ttf);
 
 }
 
