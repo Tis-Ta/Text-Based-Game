@@ -712,7 +712,7 @@ input:checked + .slider:before {
 
 @media (min-width: 160px) and (max-width: 770px) {
     html {
-        font-size: 7px;
+        font-size: 9px;
     }
 
     #shape-container, 
@@ -764,18 +764,19 @@ input:checked + .slider:before {
     #restart-button {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-        margin-left: 9em;
-        margin-top: 15.5em;
-        width: 35%;
-        max-width: 70px;
+        margin-right: -3em;
+        margin-top: 10.5em;
+        width: 65%;
+        max-width: 80px;
         max-height: 15%;
-        padding-bottom: 1.5em;
+        padding-bottom: 1.8em;
     }
 
     #switch-label {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        margin-top: 12em;
+        margin-top: 9em;
+        margin-left: -2.5em;
     }
 
     .switch {
@@ -783,69 +784,53 @@ input:checked + .slider:before {
         width: 40%;
         max-width: 50px;
         height: 2.5em;
-        left: -2em;
-        top: -5em;
+        left: -4em;
+        top: -4em;
     }
 
     #music-button {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        margin-left: 18em;
-        margin-top: -1em;
-    }
-}
-
-@media (min-width: 310px) and (max-width: 770px) {
-    .switch {
-        top: -5em;
-        left: -4em;
-    }
-
-    #switch-label {
-        margin-left: -2.5em;
-        margin-top: 12em;
+        margin-left: 10em;
     }
 }
 
 @media (min-width: 350px) and (max-width: 770px) {
     .switch {
-        top: -4em;
-        left: -7em;
+        left: -5em;
     }
 
     #switch-label {
-        margin-left: -5.5em;
-        margin-top: 13em;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 770px) {
-    #switch-label {
-        margin-left: -10.5em;
-        margin-top: 2.5em;
-    }
-
-    .switch {
-        left: -10.5em;
-    }
-
-    #input-bar {
-        left: 4.5em;
+        margin-left: -4.5em;
     }
 
     #restart-button {
-        margin-left: 10.5em;
-    }
-
-    #music-button {
-        margin-left: 23em;
-        margin-top: -4em;
+        margin-right: -4.5em;
+        margin-top: 10.5em;
     }
 }
 
-@media (min-width: 550px) and (max-width: 770px) {
+@media (min-width: 420px) and (max-width: 770px) {
+    .switch {
+        left: -8em;
+    }
+
+    #switch-label {
+        margin-left: -6em;
+    }
+
+    #restart-button {
+        margin-right: -7em;
+    }
+
+    #music-button {
+        margin-left: 17em;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 770px) {
     html {
-        font-size: 8px;
+        font-size: 9px;
     }
 
     #restart-button {
