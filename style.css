@@ -128,6 +128,7 @@ main {
 
 #music-button {
     background-color: rgb(201, 196, 196);
+    color: black;
     border-radius: 50%;
     left: 8.125rem;
     top: 3.75rem;
@@ -593,6 +594,7 @@ ul > li {
 
 #restart-button {
     font-size: 1.7rem;
+    color: black;
     right: 1.5em;
     top: 3.5em;
     height: 10%;
