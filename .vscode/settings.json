@@ -1,0 +1,7 @@
+{
+    "livePreview.defaultPreviewPath": "/index.html",
+    "editor.maxTokenizationLineLength": 30000,
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 5000
+    }
+}

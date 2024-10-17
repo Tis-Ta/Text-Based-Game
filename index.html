@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fate of Eldoria</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="small-dots"> ●  ●  ●  ● </div>
+        <div class="big-dots">⚫</div>                                                                                             <!-- Controller Elements -->
+        <div class="big-dots" id="big-dots-right">⚫</div>   
+          
+        <div id="responsive-buttons">
+            <button id="restart-button" class="controller-text">Restart</button>
+            <button id="music-button" class="controller-text">M</button>                                                                
+            <p id="switch-label" class="controller-text">OFF/ ON</p>                                                                    <!-- Controller Buttons -->
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="main-buttons" id="arrow-container">  
+                <p class="all-emojis" id="left-arrow">🡸</p> 
+                <p class="all-emojis" id="right-arrow">🡺</p>                                                                       <!-- Left-hand Buttons -->
+                <p class="all-emojis" id="up-arrow">🡹</p>
+                <p class="all-emojis" id="down-arrow">🡻</p>
+        </div>
+
+        <div class="screen">
+            <div id="screen-blocker" class="screen screen-background-black"></div>
+            <h1 id="start-up-text" class="hidden">SegaTendo<br>PSP&trade;</h1>                                                    <!-- Various Screen Elements -->
+            <div class="scroll-indicator up" id="scroll-up">&#9650;</div>
+            <div id="number-of-keys" class="hidden"></div>
+
+            <div class="boss-health-class" id="boss-fight-player-health"></div>                                                     <!-- End Boss Fight -->
+            <div class="boss-health-class" id="boss-fight-boss-health"></div>
+
+            <div id="text-screen">
+                <p id="intro-heading" class="hidden"><span id="intro-heading-span">Welcome to</span> <br> The Fate of Eldoria</p>   <!-- Intro Text -->
+                <p id="intro-text" class="hidden">A text-based fantasy game set in a magical world</p>
+                <p id="intro-button" class="screen-buttons">Click to Start</p>
+
+                <div id="instruction-text-box" class="hidden">                                                                      <!-- Instruction Text -->
+                    <h2><u>How To Play</u></h2>
+                    <ul>  
+                        <li>This is a text-based game. It is played using your <em>imagination</em>.</li>
+                        <li>Each area you go to will provide a description of where you are and the options available to you (highlighted in red below). Such as actions to take or the next direction to travel in.</li>    
+                        <li>Type your choice in the bar below and either click on 'Make Your Choice' or press 'Enter' to proceed.</li>    
+                        <li>All choices must match the given options EXACTLY, although they are NOT cAsE-sEnSiTiVe.</li>    
+                        <li>Only type the options that are given to you or are implied by the story.</li> 
+                        <li>Each area will allow you to "Look". This will explore your surroundings and tell you more about the area, where each direction will take you and if there is anything else of interest.</li>    
+                        <li>Entering a new area will 'progress' the story. Revisiting an area will show a shorter description to remind you of this. If you want to read the original text when the area was first entered, select the "Story" option.</li>
+                        <li>Make sure to pay close attention to all instructions and clues.</li>
+                        <li>Consider drawing a small map while playing to track your directions and to also write down any clues.</li>    
+                        <li>Arrows on the right of the screen (▲ ▼) indicate if there is more text to read.</li>    
+                        <li>You can see how many key pieces have been collected at the bottom left of the screen (🗝️).</li>    
+                        <li>The game does not save at all. You will lose all progress if you die or if you close/refresh the browser.</li>    
+                        <li>The 'Off/On' button turns off the controller without losing game progress.</li>    
+                        <li>The 'Restart' button starts the game over. Double-click to restart.</li>    
+                        <li>Sound will enhance the game experience 🔊.</li>    
+                        <li>To pause/ play the game music, click the 'm' above the Off/ On button 🔇.</li>    
+                        <li>HAVE FUN! 🎉</li>
+                        <p id="instruction-button" class="screen-buttons">Play</p>
+                    </ul>
+                </div>
+                                                                                                                                    <!-- Story Text -->
+                <p id="opening-story-text" class="hidden">In the ancient kingdom of Eldoria, a primordial darkness stirs... Long ago, the land was prosperous, its people living in harmony with the magic that flowed through the earth like a living stream. But the peace was shattered when the powerful dark wizard, Malakar the Poes, sought to bend that magic to his vile will, corrupting it with dark spells and forbidden rites. His thirst for power was insatiable, and soon, he became a threat not only to Eldoria but to the very balance of the entire world.
+                <br>
+                <br>
+                The greatest heroes of the age banded together to stop him, eventually sealing him away behind a Magical Door deep within his Black Fortress of Minas Ithil - a citadel of nightmares and shadow. The key to this door was hidden in the furthest corners of the kingdom, scattered into pieces, so that none could ever free Malakar again. But this act will prove to be their undoing, as centuries later, horrifying rumours spread that the dark wizard's influence still whispers throughout the lands, slowly poisoning and corrupting all life from within...
+                <br>  
+                <br>  
+                Now, you are the last descendant of this ancient bloodline of heroes, born under a prophecy foretold by the stars. The elders have trained you in secret, preparing you for the day when you must face the evil that threatens to consume Eldoria and end Malakar once and for all. Today, is that day.
+                <br>
+                <br>
+                Your journey will take you across perilous mountains, through forgotten forests, and into the heart of abandoned cities. Along the way, you will undertake trials to test your courage, cunning, and strength. You must gather the shards of the Bloodless key, each one hidden with its own mystery to be solved. Only once you have reassembled the three pieces, can you then unlock the Forgotten Door inside the Black Fortress and face Malakar in a final battle to decide the fate of Eldoria. There have even been rumours of a great Sphinx that might know the locations of the three pieces...
+                <br>
+                <br>
+                But beware, hero, for the path is fraught with danger and death. Malakar's dark magic constantly seeks to ensnare your mind and soul. The choices you make will shape your destiny. Death, only ever a step away. Will you be the light that banishes this darkness forever, or will you fall and doom your people to a fate worse than death?
+                <br>
+                <br>
+                <span id="story-text-as-button">The fate of Eldoria is in your hands</span>
+                </p>                                                                                                                 
+
+                <div id="number-game-question-mark" class="number-games-class game-text-class hidden">?</div>           <!-- Pier Guess Game -->
+
+                <div id="dice-game-container">
+                    <div id="dice-game-temp-number" class="number-games-class game-text-class hidden">0</div>
+                    <img src="/Images/dice-1.png" alt="Playing dice" class="dice hidden"/>
+                    <div id="dice-game-perm-number" class="number-games-class game-text-class hidden">0</div>
+                    <button id="dice-game-button-roll" class="dice-game-buttons hidden">Roll</button>
+                    <button id="dice-game-button-hold" class="dice-game-buttons hidden">Hold</button>
+                    <div id="dice-game-roll-count" class="dice-game-counts number-games-class hidden">45</div>
+                    <div id="dice-game-hold-count" class="dice-game-counts number-games-class hidden">10</div>   
+                </div>
+
+                <div class="memory-game-container hidden">
+                    <button id="blue" class="memory-game-buttons"></button>
+                    <button id="green" class="memory-game-buttons"></button>                                            <!-- Ruins Memory Game -->
+                    <button id="red" class="memory-game-buttons"></button>
+                    <button id="yellow" class="memory-game-buttons"></button>
+                </div>
+
+                <li id="rest-of-game-text" class="hidden"></li>                                                         <!-- Cave Dice Game -->
+                <li id="game-text-secondary-options" class="game-text-class hidden"></li>
+                <li id="game-text-look" class="game-text-class hidden"><br>Look<br></li>                                <!-- All In-Game Options -->
+                <li id="game-text-primary-options" class="game-text-class hidden"></li>
+                <li id="game-main-text-option" class="game-text-class hidden"><br>Story</li>
+
+            </div>
+            <div class="scroll-indicator down" id="scroll-down">&#9660;</div>
+        </div>
+
+        <div id="input" class="controller-text">
+            <button id="input-bar-button" class="controller-text">Make Your Choice:</button>                            <!-- Bottom Input Bar -->
+            <input type="text" id="input-bar" autocomplete="off"> 
+        </div>
+
+        <div class="main-buttons" id="shape-container">
+                <p class="all-emojis" id="sq-emoji">∎</p>                                                               <!-- Right-hand Buttons -->
+                <p class="all-emojis" id="cir-emoji">●</p>
+                <p class="all-emojis" id="tr-emoji">▲</p>                                                                    
+                <p class="all-emojis" id="x-emoji">✖</p>
+        </div>
+        
+        <div id="trademark-text">SegaTendo PsP&trade;</div>                                                              <!-- Bottom-right Text -->
+    </main>
+
+    <script src="scriptRooms.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
