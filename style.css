@@ -121,7 +121,7 @@ main {
 .controller-text {
     position: absolute;
     font-family: papyrus;
-    text-shadow: 1px 1px 1px #424141, 1.5px 1.5px 1px #afaf91;
+    text-shadow: 0.06rem 0.06rem 0.06rem #424141, 0.095rem 0.095rem 0.06rem #afaf91;
     font-weight: 900;
     letter-spacing: 2px;
 }
@@ -139,7 +139,7 @@ main {
 #trademark-text {
     position: absolute;
     color: black;
-    text-shadow: -1px -1px 3px rgba(150, 119, 173, 0.84);
+    text-shadow: -0.06rem -0.06rem 0.1875rem rgba(150, 119, 173, 0.84);
     top: 85vh;
     left: 81vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -231,7 +231,7 @@ main {
     margin-top: -0.3em;
     margin-bottom: 0;
     font-family: wonderFont;
-    text-shadow: 1px 1px 5px rgb(252, 30, 30), 0 0 0.1em rgb(141, 95, 22);
+    text-shadow: 0.06rem 0.06rem 0.3125rem rgb(252, 30, 30), 0 0 0.1em rgb(141, 95, 22);
 }
 
 #intro-heading-span {
@@ -244,7 +244,7 @@ main {
     margin-top: 1.3em;
     color: rgb(230, 222, 222);
     font-family: ringFont;
-    text-shadow: 1px 1px 4px rgb(251, 0, 0), 0 0 0.1em rgba(15, 222, 0, 0.637);
+    text-shadow: 0.06rem 0.06rem 0.25rem rgb(251, 0, 0), 0 0 0.1em rgba(15, 222, 0, 0.637);
 }
 
 #instruction-text-box {
@@ -254,14 +254,14 @@ main {
     align-items: start;
     font-family: ringFont;
     padding: 0;
-    text-shadow: 0px 0px 4px rgb(255, 255, 0), -4px -3px 1px black;
+    text-shadow: 0px 0px 0.25rem rgb(255, 255, 0), -0.25rem -0.1875rem 0.06rem black;
     margin-top: -2.5em;
     text-align: left;
 }
 
 #instruction-text-box > h2 {
     align-self: center;
-    font-size: 3.4375rem;
+    font-size: 3.5rem;
     color: rgb(178, 0, 0);
     font-weight: 500;
     margin-bottom: 0;
@@ -274,7 +274,7 @@ ul {
 ul > li {
     color: rgb(255, 226, 111);
     font-size: 1.5625rem;
-    text-shadow: 1px 1px 1px red, -2px -2px 1px black;
+    text-shadow: 0.06rem 0.06rem 0.06rem red, -0.125rem -0.125rem 0.06rem black;
     letter-spacing: 2px;
     padding: 0.5em;
     margin-left: 1.5em;
@@ -285,13 +285,13 @@ ul > li {
     margin: 0;
     letter-spacing: 1px;
     font-family: wonderFont;
-    text-shadow: 1px 1px 5px rgb(252, 30, 30), 0 0 0.1em rgb(255, 255, 0);
+    text-shadow: 0.06rem 0.06rem 0.3125rem rgb(252, 30, 30), 0 0 0.1em rgb(255, 255, 0);
 }
 
 #story-text-as-button {
     font-size: 2.8125rem;
     font-family: ringFont;
-    text-shadow: 1px 1px 2px rgba(174, 0, 0, 0.988);
+    text-shadow: 0.06rem 0.06rem 0.125rem rgba(174, 0, 0, 0.988);
     color: rgb(230, 222, 222);
     cursor: pointer;
 }
@@ -299,7 +299,7 @@ ul > li {
 #rest-of-game-text {
     font-size: 2.1875rem; 
     color: white;
-    text-shadow: 1px 1px 2px rgba(174, 1, 1, 0.963), -1.5px -1px 1px black, 1px 1px 1px black;
+    text-shadow: 0.06rem 0.06rem 0.125rem rgba(174, 1, 1, 0.963), -0.09rem -0.06rem 0.06rem black, 0.06rem 0.06rem 0.06rem black;
     font-family: openFont;
     margin-top: 0;
     font-weight: 600;
@@ -310,7 +310,7 @@ ul > li {
     font-size: 2.8125rem;
     font-family: caFont;
     color: white;
-    text-shadow: 0 0 0.3em red, -3px -2px 1px black;
+    text-shadow: 0 0 0.3em red, -0.1875rem -0.125rem 0.06rem black;
     margin-top: 0px;
     list-style-type: none;
 }
@@ -384,14 +384,14 @@ ul > li {
     background: none;
     font-family: ringFont;
     color: white;
-    text-shadow: 0 0 0.3em red, -3px -2px 1px black;
+    text-shadow: 0 0 0.3em red, -0.1875rem -0.125rem 0.06rem black;
     cursor: pointer;
 }
 
 .dice-game-counts {
     font-size: 2.8125rem;
     color: black;
-    text-shadow: -0.5px -0.5px 10px rgb(232, 214, 14);
+    text-shadow: -0.0313rem -0.0313rem 0.625rem rgb(232, 214, 14);
 }
 
 .memory-game-container {
@@ -403,7 +403,7 @@ ul > li {
 .memory-game-buttons {
     height: 9.375rem;
     width: 9.375rem;
-    box-shadow: 1px 1px 7px black;
+    box-shadow: 0.06rem 0.06rem 0.44rem black;
     cursor: pointer;
 }
 
@@ -413,7 +413,7 @@ ul > li {
 
 .boss-game-span-heal {
     color: green;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 0.06rem 0.06rem 0.06rem black;
 }
 
 .boss-health-class {
@@ -423,7 +423,7 @@ ul > li {
     top: 0px; 
     font-family: ringFont;
     color: rgb(199, 2, 2);
-    text-shadow: 1px 1px 2px white, -3px -2px 1px black;
+    text-shadow: 0.06rem 0.06rem 0.125rem white, -0.1875rem -0.125rem 0.06rem black;
 }
 
 #boss-fight-player-health {
@@ -554,7 +554,7 @@ ul > li {
     margin-bottom: 0;
     border: none;
     background-color: #2e0c3500;
-    text-shadow: 1px 1px 2px rgba(174, 0, 0, 0.988);
+    text-shadow: 0.06rem 0.06rem 0.125rem rgba(174, 0, 0, 0.988);
     color: rgb(230, 222, 222);
     cursor: pointer;
 }
@@ -609,7 +609,7 @@ ul > li {
 .screen-buttons:hover, 
 .dice-game-buttons:hover {
     color: rgba(173, 0, 0, 0.988);
-    text-shadow: 2px 2px 2px rgb(53, 2, 2);
+    text-shadow: 0.125rem 0.125rem 0.125rem rgb(53, 2, 2);
 }
 
 #restart-button:active, 
@@ -642,7 +642,7 @@ ul > li {
     color: rgba(0, 0, 0, 0.807);
     font-size: 1.875rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 0 2px rgba(116, 32, 189, 0.856);
+    text-shadow: 0 0.125rem rgba(116, 32, 189, 0.856);
     left: 2em;
     top: 2.5em;
     cursor: default;
@@ -691,7 +691,7 @@ input:checked + .slider {
 }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 0.06rem #2196F3;
 }
   
 input:checked + .slider:before {
@@ -774,7 +774,7 @@ input:checked + .slider:before {
         width: 40%;
         max-width: 52px;
         height: 2.5em;
-        margin-left: -3.5em;
+        margin-left: -4.5em;
         top: 28em;
     }
 
@@ -799,7 +799,7 @@ input:checked + .slider:before {
     }
     
     #switch-label {
-        left: -4em;
+        left: -4.5em;
         top: 11.5em;
     }
 
