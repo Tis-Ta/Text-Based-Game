@@ -314,7 +314,7 @@ function playerDeath() {
     gameMainTextElem.style.fontFamily = "ringFont";
     gameMainTextElem.style.color = "red";
     gameMainTextElem.style.letterSpacing = "3px";
-    screenElem.style.backgroundImage = "url('images/Death.jpg')";
+    screenElem.style.backgroundImage = "url('Images/Death.jpg')";
     gameTextSecondaryOptionsElem.innerHTML = "<br>YOU HAVE FAILED<br><br>RESTART THE GAME";
 }
 
@@ -922,9 +922,9 @@ function playRiddleAnswersSphinx() {
             break;
         case "speak":
             gameMainTextElem.innerHTML = 'The Sphinx remains still, but its voice seems to eminate from everywhere at once, as if it is one with the world around you. The sound is both cold and robotic, yet somehow warm and soothing. A contradiction impossible to decipher, leaving you unsure whether it is friend or foe. Its words are slow, deliberate, and monosyllabic:<br><br> "<em>I know who you are. I know why you are here. I know what you seek. I know where they are. I know your desire to know.</em>"';
-            gameTextSecondaryOptionsElem.innerHTML = "<br>find piece<br>";
+            gameTextSecondaryOptionsElem.innerHTML = "<br>find keys<br>";
             break;
-        case "find piece":
+        case "find keys":
             gameMainTextElem.innerHTML = '"<em>I can tell you. But riddles must be answered. Truths figured out. Three sets of riddles. Three riddles per set. Four options per riddle. You must answer all, once a set is started. If two are answered correctly. Location is given. If two are answered incorrectly... There are no second chances. You must decide if it is worth the risk. Speak riddles to begin.</em>"';
             gameTextSecondaryOptionsElem.innerHTML = "";
             break;

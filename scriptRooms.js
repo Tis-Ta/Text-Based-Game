@@ -65,9 +65,9 @@ const riddles = [
     },
     {
     question: "What word becomes shorter when you add two letters to it?",   
-    answerChoices: "<br>shorter<br><br>wide<br><br>long<br><br>short",
+    answerChoices: "<br>narrow<br><br>wide<br><br>short<br><br>long",
     correctAnswer: "short",
-    wrongAnswers: ["shorter", "wide", "long"],
+    wrongAnswers: ["narrow", "wide", "long"],
     hasBeenAnswered: false
     },
     {
@@ -698,7 +698,7 @@ const rooms = {
     Ruins: {
         image: "url('Images/Ruins.jpg')",
 
-        areaStoryDescription: "The Ruins are the remnants of a civilization far older than those in the Mysterious Town. Vines and moss have claimed the crumbling stone structures and only a few walls remain standing with any true strength. Broken statues and shattered pottery litter the ground, relics of a time long forgotten. You can smell the scent of earth and decay, and a quiet, sacred reverence hangs over this place, as if it still holds the final echoes of a lost era.<br><br> The village outside was likely built to protect and conceal these ruins from outsiders. The puzzle you solved was designed to ensure that only those with the proper knowledge, those who belonged here, could gain access. You can only speculate about the true story behind these ruins, but the truth has long been swallowed by time. All that remains now is the certainty that something of great power still lingers here, waiting to be found.",
+        areaStoryDescription: "You walk down the tunnel for what feels like hours. Eventually, the tunnel opens into the most magnificent Ruins you have ever seen. They are the remnants of a civilization far older than those in the Mysterious Town. Vines and moss have claimed the crumbling stone structures and only a few walls remain standing with any true strength. Broken statues and shattered pottery litter the ground, relics of a time long forgotten. You can smell the scent of earth and decay, and a quiet, sacred reverence hangs over this place, as if it still holds the final echoes of a lost era.<br><br> The Town outside was likely built to protect and conceal these ruins from outsiders. The puzzle you solved was designed to ensure that only those with the proper knowledge, those who belonged here, could gain access. You can only speculate about the true story behind these ruins, but the truth has long been swallowed by time. All that remains now is the certainty that something of great power still lingers here, waiting to be found.",
 
         areaMainDescription: "You have returned to the Ruins, where history lies in broken stones and shattered dreams. Even in decay, the structures remain awe-inspiring, their ancient grandeur seems to increase with each visit.",
 
