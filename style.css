@@ -766,7 +766,7 @@ input:checked + .slider:before {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         font-size: 1.2rem;
-        top: 19em;
+        top: 18.5em;
         left: -4em;
     }
 
@@ -775,14 +775,14 @@ input:checked + .slider:before {
         max-width: 52px;
         height: 2.5em;
         margin-left: -4.5em;
-        top: 32em;
+        top: 31.5em;
     }
 
     #music-button {
         position: relative;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        top: 8em;
+        top: 7.5em;
         left: 6em;
     }
 
@@ -807,6 +807,10 @@ input:checked + .slider:before {
 
     .switch {
         top: 28em;
+    }
+
+    #music-button {
+        top: 7em;
     }
 }
 
@@ -851,11 +855,11 @@ input:checked + .slider:before {
     }
 
     .switch {
-        top: 23em;
+        top: 22.5em;
     }
 
     #switch-label {
-        top: 13.5em;
+        top: 13em;
         left: -8em;
     }
 
@@ -874,12 +878,12 @@ input:checked + .slider:before {
     }
 
     #switch-label {
-        top: 12.4em;
+        top: 12em;
         left: -9em;
     }
 
     .switch {
-        top: 21em;
+        top: 20.6em;
         margin-left: -2em;
     }
 
@@ -909,7 +913,7 @@ input:checked + .slider:before {
     }
 
     #input-bar {
-        left: 6em;
+        left: 7em;
     }
 
     #music-button {
@@ -918,7 +922,7 @@ input:checked + .slider:before {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1279px) {
+@media (min-width: 1150px) and (max-width: 1279px) {
     .switch {
         top: 19em;
         margin-left: 0em;
@@ -929,7 +933,7 @@ input:checked + .slider:before {
     }
 
     #input-bar {
-        left: 7em;
+        left: 8em;
     }
 }
 
