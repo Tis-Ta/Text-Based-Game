@@ -1,7 +1,7 @@
 "use strict"
 
 const playerState = {
-    currentRoom: "Beginning",
+    currentRoom: "Ruins",
     inventory: [],
     keyPieces: 0,
     isPoisoned: false

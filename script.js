@@ -1148,14 +1148,14 @@ function playMemoryGameRuins() {
             gameMainTextElem.innerHTML = '"<em>I am the Grand Wizard of this temple. To gain access to our knowledge, you must undergo the Test of Purity. Only those pure of soul may attempt it, and only the purest among them can hope to pass. If you harbor any evil intentions toward this sacred place or its people, the full force of our magic will strike you down without mercy. Should you take the test and fail, you will share the same fate. For we cannot allow even the slightest risk of this temple falling into the hands of evil. Step into the light, and begin your Test of Purity - if you truly believe that you are pure of heart.</em>"';
             gameTextSecondaryOptionsElem.innerHTML = "<br>light<br>";
             break;
-        case "light":
+        case "a":
             gameMainTextElem.innerHTML = 'As you step toward the man, his figure begins to dissolve into a shimmering mist and suddenly the world around you vanishes. In an instant, you are engulfed in a realm of pure, blinding light. All sense of direction is lost. There is nothing but the white void stretching endlessly in every direction.<br><br> The silence is overwhelming, save for a voice echoing in your mind, deep and solemn. It is the voice of the man, though his presence is nowhere to be seen. "<em>This is the testing ground. If you seek the truth of this place, you must prove yourself worthy. Your test is one of memory. Four colors will manifest before you. Watch closely as each one flashes in sequence. When they finish, it will be your task to recall and click the order exactly as it was shown to you. You have but three chances to pass this test. Ten correct in a row are needed to prove that your heart is pure.<br><br> Should you fail… the consequences are dire. But should you succeed and the answers you seek shall be revealed… Good luck.</em>"'; 
             gameTextSecondaryOptionsElem.innerHTML = "<br>begin<br>";
             hideMainGameElems();
             break;
-        case "begin":
+        case "z":
             gameMainTextElem.innerHTML = "Speak 'go' when ready.<br><br>";
-            gameTextSecondaryOptionsElem.innerHTML = "<br>go<br>";
+            gameTextSecondaryOptionsElem.innerHTML = "go<br>";
             removeHiddenClassFrom(gameTextSecondaryOptionsElem);
             removeHiddenClassFrom(memoryGameButtonsContainer);
             addMemoryGameListeners();
@@ -1197,7 +1197,7 @@ function playMemoryGameRuins() {
                 }, 1000);
             }
         } else {
-            gameMainTextElem.innerHTML = "You have failed your attempt. Say 'go' to try again.<br><br>";
+            gameMainTextElem.innerHTML = "You have failed your attempt. Say 'go' to try again.<br>";
             gameTextSecondaryOptionsElem.innerHTML = `<br>0`;
             currentRoom.memoryGameChances--;
             isRoomActivityInProgress = false;
