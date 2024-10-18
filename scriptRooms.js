@@ -1,7 +1,7 @@
 "use strict"
 
 const playerState = {
-    currentRoom: "Beginning",
+    currentRoom: "Field",
     inventory: [],
     keyPieces: 0,
     isPoisoned: false
@@ -248,7 +248,7 @@ const rooms = {
 
         areaMainDescription: "You have returned to the open Field, the wild grasses whispering secrets as the wind passes through.",
 
-        areaLookDescription: "You stand in an open field, a rare sense of peace settling around you. Something seldom found in the rest of this land. In the distance, you can see the faint outline of mountains, creating an incredible landscape in the increasingly desolate world.<br><br>- To the North is a Magic Path. <br><br>- To the South is a River.<br><br> You glance back right before leaving and you notice a small figure in the distance, barely visible against the expanse of the open field.",
+        areaLookDescription: "You stand in an open field, a rare sense of peace settling around you. Something seldom found in the rest of this land. In the distance, you can see the faint outline of mountains, creating an incredible landscape in the increasingly desolate world.<br><br>- To the North is a Magic Path. <br><br>- To the South is a River.<br><br> You glance back before leaving and notice a small figure in the distance, barely visible against the expanse of the open field.",
 
         directions: {
             "north": "MagicPath",

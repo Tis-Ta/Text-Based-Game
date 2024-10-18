@@ -823,20 +823,20 @@ function clueField() {
     switch (playersChoice) {
         case "look":
             gameTextSecondaryOptionsElem.innerHTML = "<br>call<br>";
-            isRoomActivityInProgress = true;
             hideMainGameElems();
             removeHiddenClassFrom(gameTextSecondaryOptionsElem);
             break;
-        case "call":
+            case "call":
+            isRoomActivityInProgress = true;
             gameMainTextElem.innerHTML = "You call out to the figure, but there is no response. It remains still, its back turned to you, unmoving.";
             gameTextSecondaryOptionsElem.innerHTML = "<br>walk<br>";
             hideMainGameElems();
             break;
         case "walk":
-            gameMainTextElem.innerHTML = "You approach the figure and find it is just a small child, no older than five or six. It is odd to be alone in such a place. Perhaps they have become separated from their family, lost amid the darkness that has plagued these lands, alone and terrified. I could see if they need help or  I can not take the risk and carry on.";
-            gameTextSecondaryOptionsElem.innerHTML = "<br>help child<br><br>leave child<br>";
+            gameMainTextElem.innerHTML = "You approach the figure and find it is just a small child, no older than five or six. It is odd to be alone in such a place. Perhaps they have become separated from their family, lost amid the darkness that has plagued these lands, alone and terrified.<br><br>You need to decide whether to help the child, or not take the risk and move on.";
+            gameTextSecondaryOptionsElem.innerHTML = "<br>help<br><br>leave<br>";
             break;
-        case "leave child":
+        case "leave":
             gameMainTextElem.innerHTML = "You decide the risk is too great and turn to leave, unsure if it was the right choice. The uncertainty lingers, but your training has taught you to trust your instincts. Sometimes, doing nothing is the wisest path. You continue your journey, moving cautiously forward while trying to push the potential encounter out of your mind.";
             isRoomActivityInProgress = false;
             currentRoom.isAreaActivityFinished = true;
@@ -844,7 +844,7 @@ function clueField() {
             showMainGameElems();
             addHiddenClassTo(gameTextSecondaryOptionsElem);
             break;
-        case "help child":
+        case "help":
             gameMainTextElem.innerHTML = "You place your hand on the child's shoulder and gently turn them around. Your blood turns to ice as you come face-to-face with hollow, empty eye sockets staring back at you. A ghastly, blood-streaked smile of jagged teeth sends a shiver down your spine. The child staring at you with a deathly stillness.<br><br> As you stagger back in shock, the child lunges at you, clawing at your face like a wild rabid beast. You fall back, fighting desperately, but suddenly when you look around, the field is completely empty. Shaken and disoriented, you realize it must have been a nightmarish illusion. It seems Melkor is somehow always watching, always scheming.";
             isRoomActivityInProgress = false;
             currentRoom.isAreaActivityFinished = true;
@@ -1148,12 +1148,12 @@ function playMemoryGameRuins() {
             gameMainTextElem.innerHTML = '"<em>I am the Grand Wizard of this temple. To gain access to our knowledge, you must undergo the Test of Purity. Only those pure of soul may attempt it, and only the purest among them can hope to pass. If you harbor any evil intentions toward this sacred place or its people, the full force of our magic will strike you down without mercy. Should you take the test and fail, you will share the same fate. For we cannot allow even the slightest risk of this temple falling into the hands of evil. Step into the light, and begin your Test of Purity - if you truly believe that you are pure of heart.</em>"';
             gameTextSecondaryOptionsElem.innerHTML = "<br>light<br>";
             break;
-        case "a":
+        case "light":
             gameMainTextElem.innerHTML = 'As you step toward the man, his figure begins to dissolve into a shimmering mist and suddenly the world around you vanishes. In an instant, you are engulfed in a realm of pure, blinding light. All sense of direction is lost. There is nothing but the white void stretching endlessly in every direction.<br><br> The silence is overwhelming, save for a voice echoing in your mind, deep and solemn. It is the voice of the man, though his presence is nowhere to be seen. "<em>This is the testing ground. If you seek the truth of this place, you must prove yourself worthy. Your test is one of memory. Four colors will manifest before you. Watch closely as each one flashes in sequence. When they finish, it will be your task to recall and click the order exactly as it was shown to you. You have but three chances to pass this test. Ten correct in a row are needed to prove that your heart is pure.<br><br> Should you fail… the consequences are dire. But should you succeed and the answers you seek shall be revealed… Good luck.</em>"'; 
             gameTextSecondaryOptionsElem.innerHTML = "<br>begin<br>";
             hideMainGameElems();
             break;
-        case "z":
+        case "begin":
             gameMainTextElem.innerHTML = "Speak 'go' when ready.<br><br>";
             gameTextSecondaryOptionsElem.innerHTML = "go<br>";
             removeHiddenClassFrom(gameTextSecondaryOptionsElem);

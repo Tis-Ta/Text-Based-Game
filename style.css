@@ -766,23 +766,23 @@ input:checked + .slider:before {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         font-size: 1.2rem;
-        top: 18.5em;
-        left: -4em;
+        top: 17em;
+        left: -4.5em;
     }
 
     .switch {
         width: 40%;
         max-width: 52px;
         height: 2.5em;
-        margin-left: -4.5em;
-        top: 31.5em;
+        margin-left: -5em;
+        top: 29.5em;
     }
 
     #music-button {
         position: relative;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        top: 7.5em;
+        top: 6.5em;
         left: 6em;
     }
 
@@ -801,22 +801,22 @@ input:checked + .slider:before {
     }
     
     #switch-label {
-        top: 16.5em;
-        left: -5.3em;
+        top: 15.5em;
+        left: -5.5em;
     }
 
     .switch {
-        top: 28em;
+        top: 27em;
     }
 
     #music-button {
-        top: 7em;
+        top: 6em;
     }
 }
 
 @media (min-width: 485px) and (max-width: 1279px) {
     #switch-label {
-        left: -6em;
+        left: -7.5em;
     }
 
     #input-bar {
@@ -824,7 +824,7 @@ input:checked + .slider:before {
     }
     
     #music-button {
-        top: 6.5em;
+        top: 6em;
         left: 7em;
     }
 }
@@ -835,17 +835,17 @@ input:checked + .slider:before {
     }
 
     .switch {
-        top: 25em;
+        top: 24.5em;
         margin-left: -3em;
     }
 
     #switch-label {
-        top: 14.5em;
-        left: -6.5em;
+        top: 14.1em;
+        left: -7.5em;
     }
     
     #music-button {
-        top: 6.5em;
+        top: 5.5em;
     }
 }
 
@@ -855,11 +855,11 @@ input:checked + .slider:before {
     }
 
     .switch {
-        top: 22.5em;
+        top: 22.2em;
     }
 
     #switch-label {
-        top: 13em;
+        top: 12.8em;
         left: -8em;
     }
 
@@ -868,6 +868,7 @@ input:checked + .slider:before {
     }
     
     #music-button {
+        top: 4.5em;
         left: 8.5em;
     }
 }
@@ -878,12 +879,12 @@ input:checked + .slider:before {
     }
 
     #switch-label {
-        top: 12em;
+        top: 11.5em;
         left: -9em;
     }
 
     .switch {
-        top: 20.6em;
+        top: 20.2em;
         margin-left: -2em;
     }
 
@@ -892,7 +893,7 @@ input:checked + .slider:before {
     }
 
     #music-button {
-        top: 5em;
+        top: 4.5em;
         left: 9.5em;
     }
 }
@@ -903,7 +904,7 @@ input:checked + .slider:before {
     }
 
     #switch-label {
-        top: 11em;
+        top: 10.8em;
         left: -10em;
     }
 
@@ -917,7 +918,7 @@ input:checked + .slider:before {
     }
 
     #music-button {
-        top: 5em;
+        top: 4em;
         left: 10.5em;
     }
 }
