@@ -265,7 +265,7 @@ const rooms = {
 
         areaMainDescription: "You have returned to the Old Village, its defiant standing is a testament to the determination and strength of its people.",
 
-        areaLookDescription: "You are currently in the main part of the Old Village, people eye you with suspicion but they ultimately get on with their day. The worn cobblestone streets are lined with weathered wooden houses, their windows shuttered and doors creaking as they sway in the breeze. A few villagers mill about, casting you cautious glances before returning to their tasks.<br><br>- To the North is a River. <br><br>- To the East is a Tavern. <br><br>- To the West is the Forest.",
+        areaLookDescription: "You are currently in the main part of the Old Village, people eye you with suspicion but they ultimately get on with their day. The worn cobblestone streets are lined with weathered wooden houses, their windows shuttered and doors creaking as they sway in the breeze.<br><br>- To the North is a River. <br><br>- To the East is a Tavern. <br><br>- To the West is the Forest.",
 
         directions: {
             "north": "River",
@@ -279,11 +279,11 @@ const rooms = {
     Tavern: {
         image: "url('Images/Tavern.jpg')",
 
-        areaStoryDescription: "The Tavern still holds onto remnants of its former glory. The crowds have thinned and the lively chatter is quieter but there is still a hum of life within.<br><br> The scent of ale, though not as fresh, mixes with the faint aroma of roasting meat. Subtle music is heard in the background. A few patrons sit scattered across worn wooden tables, exchanging stories in raised voices. The beams above groan softly under the weight of years, and yet the place has not given up. The sound of laughter is a welcome reprieve and the fire in the hearth flickers with just enough warmth to remind you that, despite the times, the Tavern lives on.",
+        areaStoryDescription: "The Tavern still holds onto remnants of its former glory. The crowds have thinned and the lively chatter is quieter but there is still a hum of life within. The scent of ale, though not as fresh, mixes with the faint aroma of roasting meat. Subtle music is heard in the background. A few patrons sit scattered across worn wooden tables, exchanging stories in raised voices.<br><br> The beams above groan softly under the weight of years, and yet the place has not given up. The sound of laughter is a welcome reprieve and the fire in the hearth flickers with just enough warmth to remind you that, despite the times, the Tavern lives on.",
 
         areaMainDescription: "You have returned to the Tavern, the memories of revelry now long faded, but there is still some sense of joy in the air",
 
-        areaLookDescription: "You are inside the old Tavern, there are a few people drinking and telling stories but nothing that catches your ear. The bartender, a burly figure with a graying beard, polishes glasses with little care, barely glancing at the room. Though the fire crackles warmly in the hearth, there is a quiet heaviness in the air as this place struggles to hold on to its fading spirit. <br><br>- To the East is the end of the Old Village. <br><br>- To the West is the main center of the Old Village.",
+        areaLookDescription: "You are inside the old Tavern, there are a few people drinking and telling stories but nothing that catches your ear. Though the fire crackles warmly in the hearth, there is a quiet heaviness in the air as this place struggles to hold on to its fading spirit.<br><br> The bartender, a burly figure with a graying beard, polishes glasses with little care, barely glancing at the room. He looks like someone who might know something of interest in the area.<br><br>- To the East is the end of the Old Village. <br><br>- To the West is the main center of the Old Village.",
 
         directions: {
             "east": "OldVillage2",
@@ -300,7 +300,7 @@ const rooms = {
 
         areaMainDescription: "You have returned to the far side of the Old Village, the silence here almost deafening.",
 
-        areaLookDescription: "You are in a more isolated part of the Old Village. The buildings here are older, their stone walls crumbling and overtaken by creeping vines. The windows are dark, and many doors hang ajar, abandoned long ago by families who once called this place home. The cobblestone street beneath your feet is uneven, with weeds poking through the cracks. A distant sound of crows echoes through the stillness, but otherwise it is eerily quiet.<br><br>- To the North is a great Broken Bridge. <br><br>- To the South is the Pier. <br><br>- To the West heads back into the Tavern.",
+        areaLookDescription: "You are in a more isolated part of the Old Village. The buildings here are older, their stone walls crumbling and overtaken by creeping vines. The windows are dark, and many doors hang ajar, abandoned long ago by families who once called this place home.<br><br>- To the North is a great Broken Bridge. <br><br>- To the South is the Pier. <br><br>- To the West heads back into the Tavern.",
 
         directions: {
             "north": "BrokenBridge",

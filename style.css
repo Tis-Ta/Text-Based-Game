@@ -715,6 +715,10 @@ input:checked + .slider:before {
         font-size: 9px;
     }
 
+    #story-text-as-button {
+        text-transform: uppercase;
+    }
+
     #shape-container, 
     #arrow-container, 
     #input-bar-button, 
@@ -766,7 +770,7 @@ input:checked + .slider:before {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         font-size: 1.2rem;
-        top: 17em;
+        top: 16em;
         left: -4.5em;
     }
 
@@ -775,14 +779,14 @@ input:checked + .slider:before {
         max-width: 52px;
         height: 2.5em;
         margin-left: -5em;
-        top: 29.5em;
+        top: 28.5em;
     }
 
     #music-button {
         position: relative;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        top: 6.5em;
+        top: 5.5em;
         left: 6em;
     }
 
@@ -801,16 +805,16 @@ input:checked + .slider:before {
     }
     
     #switch-label {
-        top: 15.5em;
+        top: 14.5em;
         left: -5.5em;
     }
 
     .switch {
-        top: 27em;
+        top: 26em;
     }
 
     #music-button {
-        top: 6em;
+        top: 5em;
     }
 }
 
@@ -824,7 +828,7 @@ input:checked + .slider:before {
     }
     
     #music-button {
-        top: 6em;
+        top: 5em;
         left: 7em;
     }
 }
