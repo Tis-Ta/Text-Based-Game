@@ -323,7 +323,7 @@ function clueTavern() {
     const currentRoom = rooms[displayPlayersRoom];
 
     if (currentRoom.isAreaActivityFinished) {
-        currentRoom.areaLookDescription = "You find yourself in the dimly lit tavern. The bartender gives you a knowing nod as your eyes meet, a silent acknowledgment of your shared secret. You can not help but feel a flicker of gratitude for the information he entrusted to you about Melkors castle - Minas Ithil, lying at the very northern edge of Eldoria.<br><br> The memory of his words lingers, reminding you of the journey that still awaits.<br><br>- To the East is the end of the Old Village. <br><br>- To the West is the main center of the Old Village.<br><br> - To the East is back deep into the Forest.<br><br> - To the West lies the Hot Springs.";
+        currentRoom.areaLookDescription = "You find yourself in the dimly lit tavern. The bartender gives you a knowing nod as your eyes meet, a silent acknowledgment of your shared secret. You can not help but feel a flicker of gratitude for the information he entrusted to you about Melkors castle - Minas Ithil, lying at the very northern edge of Eldoria.<br><br> The memory of his words lingers, reminding you of the journey that still awaits.<br><br>- To the East, is the end of the Old Village. <br><br>- To the West, is the main center of the Old Village.";
         return;
     }
 
@@ -337,7 +337,7 @@ function clueTavern() {
             addHiddenClassTo(gameTextSecondaryOptionsElem);            
             break;
         case "melkor":
-            gameMainTextElem.innerHTML = '"<em>Correct!</em>" the bartender nods, a sly smile creeping onto his face. It seems he knew more about you than he let on, but he needed to be sure you were not an imposter. Leaning in closer, he shares a secret known to only a few.<br><br> "<em>Melkors castle - Minas Ithil, lies far to the North, beyond the reach of most. But heed my warning traveler. Do not rush there blindly. You will need to assemble the Bloodless Key before the gates will yield to you.</em>" His heavy voice carries a weight that lingers, letting the implications sink in. You thank the stranger and proceed with your journey.';
+            gameMainTextElem.innerHTML = '"<em>Correct!</em>" the bartender nods, a sly smile creeping onto his face. It seems he knew more about you than he let on, but needed to be sure you were not an imposter. Leaning in closer, he shares a secret known to only a few.<br><br> "<em>Melkors castle - Minas Ithil, lies far to the North, beyond the reach of most. But heed my warning traveler. Do not rush there blindly. You will need to assemble the Bloodless Key before the gates will yield to you.</em>" His heavy voice carries a weight that lingers, letting the implications sink in. You thank the stranger and proceed with your journey.';
             currentRoom.isAreaActivityFinished = true;
             break;
     }
