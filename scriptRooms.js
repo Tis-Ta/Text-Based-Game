@@ -326,6 +326,7 @@ const rooms = {
 
         areaLookDescriptionExt: "You stand before the great stone bridge, now fully restored. Once worn and broken, it has been returned to its former grandeur. The intricate stonework gleams faintly in the light, revealing its ancient craftsmanship. The path between the Old Village and the Ruins is open once more, inviting you to cross where so many have before, linking the past and present in a single, unbroken line.<br><br> - The path South, heads back towards the end of the Old Village.<br><br> - The path North, heads over the bridge to the Ruins.",
 
+        
         directions: {
             "south": "OldVillage2",
         },
@@ -902,7 +903,7 @@ const rooms = {
 
         playerHP: 150,
 
-        bossHP: 200,
+        bossHP: 250,
 
         currentFighter: "player",
 
@@ -919,6 +920,7 @@ const rooms = {
             }
 
             if (rooms["CastleBoss"].isAreaActivityFinished) {
+                gameAudio.pause();
                 playSound("GameWin").play();
                 addHiddenClassTo(gameTextLookElem);
                 removeHiddenClassFrom(gameTextSecondaryOptionsElem);
@@ -936,7 +938,7 @@ const rooms = {
     Ending: {
         image: "url('Images/Ending.jpg')",
 
-        areaStoryDescription: "Eldoria has been saved! You have endured unspeakable hardships, unraveled countless mysteries and braved unimaginable dangers. After facing the most fearsome adversary the world has ever known, you have emerged victorious. Eldoria is finally safe, its people free from the shadow that has plagued them for centuries.<br><br> The great task that consumed your life has been completed. As you begin the long walk back to your beloved village of Edune, the weight of destiny that once pressed down on your shoulders lifts. You have fulfilled your purpose. No longer bound to the fate of Eldoria, but free to live your life as you choose. Peace has been restored and the future of Eldoria is bright once more... FUCK YOU TREVOR!!!",
+        areaStoryDescription: "Eldoria has been saved! You have endured unspeakable hardships, unraveled countless mysteries and braved unimaginable dangers. After facing the most fearsome adversary the world has ever known, you have emerged victorious. Eldoria is finally safe, its people free from the shadow that has plagued them for centuries.<br><br> The great task that consumed your life has been completed. As you begin the long walk back to your beloved village of Edune, the weight of destiny that once pressed down on your shoulders lifts. You have fulfilled your purpose. No longer bound to the fate of Eldoria, but free to live your life as you choose. Peace has been restored and the future of Eldoria is bright once more...",
 
         directions: {
 

@@ -49,7 +49,7 @@ function offOnButton() {
 
         if (screenBlackElem.classList.contains("screen-background-black")) {
             switchElem.style.cursor = "not-allowed";
-            playSound("Opening").play();
+            /* playSound("Opening").play(); */
             removeHiddenClassFrom(startUpTextElem);
             
             setTimeout(() => {
@@ -57,13 +57,14 @@ function offOnButton() {
                 screenBlackElem.style.zIndex = -5;
                 switchElem.style.cursor = "pointer";
                 addHiddenClassTo(startUpTextElem);
-            }, 4000);
+            }, 0);
             
         } else {
             screenBlackElem.classList.add("screen-background-black");
             screenBlackElem.style.zIndex = 10;
             introAudio.pause();
             gameAudio.pause();
+            playSound("GameWin").pause();
         }
     })
 }
@@ -118,6 +119,29 @@ function allGameButtons() {
         if (playersChoice != "") textScreenElem.scrollTop = 0;
         if (screenBlackElem.classList.contains("screen-background-black")) return;
         if (hasFateOfEldoriaFinished) return;
+
+        switch (playersChoice) {
+            case "allkeys":
+                playerState.keyPieces = 3;
+                numberOfKeysElem.innerHTML = `🗝️${playerState.keyPieces}`;
+                break;
+            case "fightboss":
+                displayPlayersRoom = "CastleDoor";
+                changeToNextGameState();
+                break;
+            case "playguess":                                                             /* Game Cheats */
+                displayPlayersRoom = "Pier";
+                changeToNextGameState();
+                break;
+            case "playdice":
+                displayPlayersRoom = "CaveEnd";
+                changeToNextGameState();
+                break;
+            case "playmemory":
+                displayPlayersRoom = "Ruins";
+                changeToNextGameState();
+                break;
+        }
 
         allRoomActivities();
 
@@ -692,13 +716,13 @@ function playDiceGameCaveEnd() {
             break;
         case "tablet":
             gameMainTextElem.innerHTML = "Test your resolve... Can you keep your nerve?<br> Here are the instructions for the test: <br><br>Click 'ROLL' to roll a dice between 1 and 6.<br><br> Each roll is added to your temporary score on the left (in green).<br><br> But beware - If you ever roll a 1, you will lose all the temporary points saved up so far.<br><br> Click 'HOLD' to SAVE your temporary points to your permanent score on the right (in red).<br><br> In order to pass the test, you need to reach a permanent score of 100 (in red).<br><br> The catch, is that you can only roll the dice 45 times and you can only hold your score 10 times.<br><br> Counters are below each button to keep track of your remaining rolls and holds.<br><br> If either counter reaches 0, the test is over and you will fail.<br><br> You will be given only one extra chance should you fail...<br><br>Can you survive a battle with yourself?";
-            gameTextSecondaryOptionsElem.innerHTML = "<br>start test<br>";
+            gameTextSecondaryOptionsElem.innerHTML = "<br>start<br>";
             isRoomActivityInProgress = true;
             diceGameRollButton.addEventListener("click", roll);
             diceGameHoldButton.addEventListener("click", hold);
             hideMainGameElems();
             break;
-        case "start test":
+        case "start":
             currentRoom.hasDiceGameStarted = true;
             toggleNumberGameHiddenClasses();
             addHiddenClassTo(gameTextSecondaryOptionsElem);
@@ -1371,7 +1395,7 @@ function clueCastleChapel() {
 
 function clueCastleDeath() {
     const currentRoom = rooms[displayPlayersRoom];
-    const countDownElem = document.getElementById("dice-game-number");
+    const countDownElem = document.getElementById("castle-death-counter");
     
     if (currentRoom.isAreaActivityFinished) {
         currentRoom.areaLookDescription = "You stand in the room of darkness beneath the altar, the weight of the dagger heavy in your hand. The blade gleams, a pure black stone that seems to absorb all light around it, exuding a quiet but undeniable power. The shadows in the room seem to watch as you prepare to leave, but you feel no fear now.<br><br> With the weapon in your possession, you turn toward the spiral staircase, ready to ascend back into the world above. Every step takes you closer to your final confrontation. There is no reason to return to this cursed place ever again. All that remains is to find Melkor and finish what you started.";
@@ -1493,7 +1517,7 @@ function playFinalGameBoss() {
             gameTextSecondaryOptionsElem.innerHTML = "<br>plan<br>";
             break;
         case "plan":
-            gameMainTextElem.innerHTML = "This is a 'turn-based' battle where strategy will be key to your survival. You will always act first and can choose one of three actions:<br><br>- Hit: A guaranteed strike that deals between *12 and 20* of HP damage.<br><br> - Spell: A high risk/ high reward move. It can deal between *1 and 40* of HP damage.<br><br> - Heal: Restore your health by an amount between *5 and 25* HP.<br><br> Once you have made your move, type 'end' to finish your turn and begin Melkors turn. It shares the same options as you but with a slight disadvantage. Its 'hit' attack only deals between *7 and 15 HP* of damage, thanks to the special dagger in your possession.<br><br>However, Melkors strength lies in his endurance as he has *200 HP*, while you only have *150 HP*. You cannot heal above this total amount. The battle is to bring the others health down to zero. Both of your current HP will be displayed at the top of the screen.<br><br> There is one more thing, the resurrection stone in the room grants you 3 chances to win this battle. But if the stones power is depleted and you fail, your defeat will be permanent. Choose wisely. Good luck!";
+            gameMainTextElem.innerHTML = "This is a 'turn-based' battle where strategy will be key to your survival. You will always act first and can choose one of three actions:<br><br>- Hit: A guaranteed strike that deals between *12 and 20* of HP damage.<br><br> - Spell: A high risk/ high reward move. It can deal between *1 and 40* of HP damage.<br><br> - Heal: Restore your health by an amount between *5 and 25* HP.<br><br> Once you have made your move, type 'end' to finish your turn and begin Melkors turn. It shares the same options as you but with a slight disadvantage. Its 'hit' attack only deals between *7 and 15 HP* of damage, thanks to the special dagger in your possession.<br><br>However, Melkors strength lies in his endurance as he has *250 HP*, while you only have *150 HP*. You cannot heal above this total amount. The battle is to bring the others health down to zero. Both of your current HP will be displayed at the top of the screen.<br><br> There is one more thing, the resurrection stone in the room grants you 3 chances to win this battle. But if the stones power is depleted and you fail, your defeat will be permanent. Choose wisely. Good luck!";
             gameTextSecondaryOptionsElem.innerHTML = "<br>fight<br>";
             break;
         case "fight":
@@ -1619,7 +1643,7 @@ function playFinalGameBoss() {
     function startFightOver() {
         currentRoom.numberOfLives--;
         currentRoom.playerHP = 150;
-        currentRoom.bossHP = 200;
+        currentRoom.bossHP = 250;
         currentRoom.currentFighter = "player";
         currentRoom.hasPlayerChosen = false;
         gameMainTextElem.innerHTML = `You have been defeated. The resurrection stone hums with power and your broken body is restored to full life. You have ${currentRoom.numberOfLives} life remaining. Try again!`;
