@@ -65,6 +65,7 @@ main {
     padding: 0;
     margin: 1.5625em auto;
     background-size: cover;
+    transition: background-image 0.3s ease-in-out;
     box-shadow: 5px 4px 5px rgb(47, 43, 43);
 }
 
