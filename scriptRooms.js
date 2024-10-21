@@ -14,7 +14,47 @@ const imageUrls = [
     "Images/Village.jpg",
     "Images/Path.jpg",
     "Images/Forest.jpg",
-    
+    "Images/StoneHouse.jpg",
+    "Images/River.jpg",
+    "Images/RiverHouse.jpg",
+    "Images/Field.jpg",
+    "Images/OldVillage.jpg",
+    "Images/Tavern.jpg",
+    "Images/BrokenBridge.jpg",
+    "Images/Pier.jpg",
+    "Images/HiddenHut.jpg",
+    "Images/AbandonedBuilding.jpg",
+    "Images/HotSpring.jpg",
+    "Images/SecretPath.jpg",
+    "Images/CaveEntrance.jpg",
+    "Images/CaveFirstArea.jpg",
+    "Images/CaveSecondArea.jpg",
+    "Images/CaveTrick.jpg",
+    "Images/CaveCenter.jpg",
+    "Images/CaveEnd.jpg",
+    "Images/MagicPath.jpg",
+    "Images/MagicHouse.jpg",
+    "Images/Mountains.jpg",
+    "Images/Sphinx.jpg",
+    "Images/Cherry.jpg",
+    "Images/BoneChurch.jpg",
+    "Images/Valley.jpg",
+    "Images/MysteryTown.jpg",
+    "Images/Ruins.jpg",
+    "Images/Castle.jpg",
+    "Images/CastleEntrance.jpg",
+    "Images/CastleCorridor.jpg",
+    "Images/CastleChapel.jpg",
+    "Images/CastleDeath.jpg",
+    "Images/CastleRoom.jpg",
+    "Images/CastleLibrary.jpg",
+    "Images/CastleBedroom.jpg",
+    "Images/CastleDoorCorridor.jpg",
+    "Images/CastleDoor.jpg",
+    "Images/CastleBoss.jpg",
+    "Images/Ending.jpg",
+    "Images/Death.jpg"
+
 ];
 preloadImages(imageUrls);
 
@@ -24,6 +64,7 @@ const playerState = {
     keyPieces: 0,
     isPoisoned: false
 };
+
 const riddles = [
     {
     question: "What has one eye but cannot see?",
@@ -117,11 +158,13 @@ const riddles = [
     hasBeenAnswered: false
     },
 ];
+
 const otherOptionsObject = {
     hasAreaBeenVisited: false,
     isAreaActivityFinished: false,
     isAreaActivityExtraFinished: false,
 };
+
 const rooms = {
     Beginning: {
         image: "url('Images/Beginning.jpg')",
