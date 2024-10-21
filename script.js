@@ -49,8 +49,7 @@ function offOnButton() {
 
         if (screenBlackElem.classList.contains("screen-background-black")) {
             switchElem.style.cursor = "not-allowed";
-            /* playSound("Opening").play(); */
-            /* gameAudio.paused ? gameAudio.play() : gameAudio.pause(); */
+            playSound("Opening").play();
             removeHiddenClassFrom(startUpTextElem);
             
             setTimeout(() => {
@@ -58,7 +57,7 @@ function offOnButton() {
                 screenBlackElem.style.zIndex = -5;
                 switchElem.style.cursor = "pointer";
                 addHiddenClassTo(startUpTextElem);
-            }, 0);
+            }, 4000);
             
         } else {
             screenBlackElem.classList.add("screen-background-black");
