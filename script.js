@@ -741,7 +741,7 @@ function playDiceGameCaveEnd() {
 
     function roll() {
         let randomDice = randomNumber(6);
-        diceImage.src = `/Images/dice-${randomDice}.png`;
+        diceImage.src = `Images/dice-${randomDice}.png`;
         rollClick--;
         diceGameRollCount.innerHTML = rollClick;
 
