@@ -1,5 +1,23 @@
 "use strict"
 
+function preloadImages(urls) {
+    urls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+    });
+}
+
+const imageUrls = [
+    "Images/Beginning.jpg",
+    "Images/Instruction.jpg",
+    "Images/Intro.jpg",
+    "Images/Village.jpg",
+    "Images/Path.jpg",
+    "Images/Forest.jpg",
+    
+];
+preloadImages(imageUrls);
+
 const playerState = {
     currentRoom: "Beginning",
     inventory: [],
